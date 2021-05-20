@@ -24,5 +24,5 @@ if($check == 1){
     if(mysqli_query($KetNoi, $Chen)){
         echo "Thành Công";
     }else echo "Thất Bại";
-}else echo "Tài khoản hoặc mã tài khoản không khớp";
+}else echo "Sai thong tin";
 ?>
