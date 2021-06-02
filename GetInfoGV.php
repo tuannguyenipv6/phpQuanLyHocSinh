@@ -13,7 +13,8 @@
                             "Name" => $dong["dName"], 
                             "Gmail" => $dong["dMail"],
                             "Photo2" => $dong["dPhoto2"], 
-                            "SDT" => $dong["dSDT"]);
+                            "SDT" => $dong["dSDT"],
+                            "TenLop" => $dong["dTenLop"]);
             }
         }
     }else{

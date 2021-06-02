@@ -1,8 +1,6 @@
 <?php
     require "truyvanData.php";
-    // $mMSL  =       $_POST['pMSL'];
-
-    $mMSL  =       3639;
+    $mMSL  =       $_POST['pMSL'];
 
     $MangHS = array();
 

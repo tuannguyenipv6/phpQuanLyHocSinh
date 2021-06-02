@@ -8,6 +8,7 @@
     $mPhoto2     =     $_POST['pPhoto2'];
     $mSDT     =     $_POST['pSDT'];
     $Info     =     $_POST['Info'];
+    $mLop     =     $_POST['pLop'];
 
     if($Info == 1){
         $TruyVan = "SELECT * FROM infodefault";
@@ -21,7 +22,7 @@
             }
         }
         if($check == 0){
-            $Chen = "INSERT INTO infodefault VALUE('$mMSL', '$mPhoto1', '$mName', '$mMail', '$mPhoto2', '$mSDT')";
+            $Chen = "INSERT INTO infodefault VALUE('$mMSL', '$mPhoto1', '$mName', '$mMail', '$mPhoto2', '$mSDT', '$mLop')";
             if(mysqli_query($KetNoi, $Chen)){
                 echo "Success";
             }else echo "Error";
